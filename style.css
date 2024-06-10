@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 100px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 200px;
+}
+
+#header1-left {
+    font-size: 24px;
+}
+
+#header1-right {
+    display: flex;
+    
+    gap: 15px;
+}
+
+#header1-right a,
+#header2-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+#header1-right a {
+    text-decoration: none;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+#header2-left h3 {
+    max-width: 350px;
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+#header2-left p {
+    max-width: 480px;
+    margin-top: -40px;
+}
+
+.header2 input {
+    color: white;
+    padding:120px 150px;
+    outline: none;
+    border: none;
+    background-color: rgb(106, 107, 119);
+    font-size: 18px;
+    margin-top: 60px;
+    width: 270px
+}
+
+::placeholder {
+    color : white;
+}
+
+
+
+button {
+    background-color: #3882F6;
+    padding: 15px 60px;
+    border-radius: 13px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    cursor: pointer;
+    width: auto;
+}
+
+
+.hero1 h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight:900;
+    color: #1F2937;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+#box p {
+   max-width: 170px;
+   text-align:center;
+}
+
+#box1 {
+    border: 5px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.hero2 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-container {
+    max-width: 48%;
+    padding-top: 70px;
+}
+
+.hero2 h6{
+    text-align: end;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.hero3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#hero3-a {
+    background-color: #3882F6;
+    display: flex;
+    padding: 0px 100px;
+    border-radius: 10px;
+    width:60%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text h3 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.hero3 button {
+    background-color: #3882F6;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
